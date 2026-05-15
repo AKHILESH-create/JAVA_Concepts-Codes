@@ -1,13 +1,18 @@
+package oops_tuto;
 import java.util.Scanner;
-public class user{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter first number: ");
-        int x = sc.nextInt();
-        System.out.println("Enter second number: ");
-        int y = sc.nextInt();
-        int sum = x+y;
-System.out.println("The sum: " +sum);
+public class user {
+    public static class Student{
+        String name;
+        int rno;
+        double cgpa;
     }
-}
+    public static void main(String[] args){
+        Scanner sc = new scanner(System.in);
+        students1 = new Student();
+        s1.name = "Khushi";
+        s1.cgpa = 8.5;
+        System.out.println(s1.name+" "+s1.cgpa+" "+s1.rno);
 
+    }
+    
+}
